@@ -5,8 +5,13 @@ import StudentInfo from "./studentinfo/studentinfo.jsx";
 export default function HomePage(){
   return (
     <div>
-      <StudentInfo></StudentInfo>
-    <Link href={"/week2"}>Week2</Link>
+      <StudentInfo />
+      <div>
+        <Link href="/week2">Week2</Link>
+      </div>
+      <div>
+        <Link href="/week3">Week3</Link>
+      </div>
     </div>
   );
 }
