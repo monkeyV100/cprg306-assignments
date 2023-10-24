@@ -23,12 +23,12 @@ const Page = () => {
       <NewItem onAddItem={handleAddItem} /> {/* Pass the event handler to NewItem */}
       <ItemList items={items} /> {/* Pass the items state to ItemList */}
 
-      {/* Added the following div for the back button */}
+      
       <div style={{ marginTop: '20px' }}>
-        <Link href="/"> {/* This link navigates back to the homepage */}
-          <a>
+        <Link href="/"> 
+          
             <button>Go Back to Home Page</button>
-          </a>
+          
         </Link>
       </div>
       
