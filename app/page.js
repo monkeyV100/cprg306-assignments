@@ -18,6 +18,9 @@ export default function HomePage(){
       <div>
         <Link href="/week5">Week5</Link> {/* Added line for Week 5 */}
       </div>
+      <div>
+        <Link href="/week6">Week6</Link> {/* Added line for Week 5 */}
+      </div>
     </div>
   );
 }
